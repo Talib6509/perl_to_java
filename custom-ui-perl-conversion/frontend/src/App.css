@@ -1,0 +1,218 @@
+@use '@carbon/react';
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background-color: #ededed;
+
+}
+
+.fileUploader {
+  margin-top:0px;
+}
+
+
+.sidebar {
+  flex:0 0 250px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.submit-button {
+  height: auto;
+  width: 100%;
+  /* float: right; */
+  
+  /* padding-top: 200px; */
+}
+
+.loading-resp {
+  margin-top: 55px;
+  margin-left: 30px;
+  margin-right: auto;
+  
+}
+
+.submit-button-container {
+  padding-top: 290px;
+}
+
+
+.radio-button-container {
+  padding-top: 10px;
+
+}
+
+/* .sidebar-logo {
+  padding-bottom: 50px;
+  flex:0 0 250px;
+  position: absolute;
+display: block;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 40px; */
+
+.sidebar-logo {
+  flex:0 0 250px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-bottom: -30px;
+
+
+}
+
+.maincontent {
+  flex-grow: 1;
+  padding: 60px;
+}
+
+.add-context-container {
+  padding-top: 10px;
+}
+
+.paste-context {
+  padding-top: 10px;
+  height: 10px;
+}
+
+.upload-container-text {
+  color: #525252;
+  width: 95%;
+  height: 50%;
+  
+}
+
+.cobolTextAreaDiv {
+  width: 49%;
+  float: left;
+}
+
+.save-reset-buttons {
+  margin-right: auto;
+  padding-top: auto;
+  padding: 0px;
+  padding-top: 20px;
+  margin-left: 700px;
+  gap: 15px;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .save-reset-buttons {
+  margin-right: -670px;
+  padding-top: 460px;
+  margin-left: auto;
+  gap: 15px;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+.code-cobol-watsonx-container {
+  padding-top: 40px;
+}
+
+.generatedTextAreaDiv {
+  width: 49%;
+  float: right;
+}
+
+.dropdown {
+  padding-top: 80px;
+  width: 350px;
+}
+
+.dropdown-text {
+  position: relative;
+  font-weight: 300;
+  font-size: 1em;
+  top: 9%;
+}
+
+.code-text{
+  color: var(--Text-text-secondary, #525252);
+font-family: "IBM Plex Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: 0.32px;
+padding-bottom: 7.6px;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.upload-button {
+  height: auto;
+  width: 100%;
+}
+
+.upload-button-text{
+  color: var(--Text-text-secondary, #525252);
+font-family: "IBM Plex Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: 0.32px;
+padding-bottom: 8px;
+padding-top: 8px;
+}
+
+.upload-text {
+  height: 40px;
+  font-weight: 600;
+  font-size: 0.875em;
+}
+
+.radio-text {
+  height: 30px;
+  font-weight: 200;
+  font-size: 0.875em;
+}
+
+.upload-container {
+  padding-top: 30px;
+}
+
+.browse-button-container {
+  max-height: 50vh;
+  padding-top: 20px;
+}
+
+.browse-button {
+  max-width: 40px;
+}
+
+.generate {
+  margin-top: 12px;
+} 
+
+.text-area-font {
+  font-weight: 400;
+}
+
+.background {
+  background-color: #8D8D8D;
+}
+.custom-analysis-input{
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 10px;
+}
